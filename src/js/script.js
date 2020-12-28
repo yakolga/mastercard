@@ -30,17 +30,6 @@ function diplayHide (hidden)
 
 (function($) {
 $(function() {
-  $('#videobutton').on('click', function() {
-  $('.overlay, #video').fadeIn('slow');
-});
-$('.modal__close').on('click', function() {
-  $('.overlay, #video').fadeOut('slow');
-});
-});
-})(jQuery);
-
-(function($) {
-$(function() {
   $('#getup').on('click', function() {
   $('.overlay, #app').fadeIn('slow');
 });

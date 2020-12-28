@@ -7,11 +7,6 @@
   background-color: rgba(0, 0, 0, 0.56);
   z-index: 1000;
   .modal {
-    iframe {
-      width: 560px;
-      height: 315px;
-      border: none;
-    }
     position: absolute;
     top: 50%;
     left: 50%;
@@ -46,7 +41,7 @@
       }
     }
   }
-  #video, #app {
+  #app {
     display: none;
   }
 }
